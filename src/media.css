@@ -1,0 +1,620 @@
+@media only screen and  (max-width: 990px) {
+header {
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+
+.header {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navlinks {
+    display: none;
+}
+body {
+     margin: 0px;
+     padding: 0px;
+ }
+
+a {
+     color: white;
+ }
+
+.title-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-togglebtn {
+    display: block;
+}
+
+.header-wrapper,
+.navlinks {
+    flex-direction: column;
+}
+.nav {
+    display: block;
+}
+
+.navlinks {
+    align-items: start;
+}
+.para {
+    font-family: inherit;
+    margin-bottom: 24px;
+    font-size: 40px;
+} 
+.paratext {
+     font-size: 20px;
+     margin-bottom: 8px;
+     max-width: 206px;
+}
+
+.button {
+    padding: 10px;
+}
+
+.title-icon {
+    display: flex;
+}
+
+.sec-2 {
+    flex-direction: column;
+}
+
+.box-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.searchbtn {
+    width: 50%;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgCont{
+    padding: 0;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.demo {
+    display: flex;
+    margin: 0;
+}
+
+.contain1 {
+  padding: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary1 {
+  padding: 20px 3px;
+  font-size: 16px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  align-items: end;
+  bottom: -273px;
+}
+.Email {
+    width: 35%;
+}
+
+.plane {
+    right: 199px;
+}
+
+
+}
+
+@media only screen and (max-width: 714px) {
+     .numbers {
+        display: flex;
+        flex-direction: column;
+     }
+}
+
+@media only screen and  (max-width: 1170px) {
+    .paratext {
+        margin-bottom: 20px; 
+        font-size: 18px;
+    }
+
+    .para {
+        font-size: 36px;
+    }
+
+    .btn-primary {
+        padding: 15px;
+        width: 110px;
+    }
+
+    .image {
+        bottom: -149px;
+    }
+
+    .service-container {
+        width: 95%;
+    }
+    .customer-container {
+        width: 96%;
+    }
+    .blog-container {
+        width: 97%;
+    }
+    .footer-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .paratext {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .para {
+        font-size: 15px;
+    }
+
+    .button {
+        padding: 5px;
+    }
+
+    .image{ 
+        bottom: -185px;
+    }
+
+    .footer-container {
+        width: 80%;
+    }
+}
+
+
+@media  only screen and (max-width: 768px) {
+    .demo {
+        flex-direction: column;
+    }
+
+    .contain1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image{
+        align-items: center;
+        padding-left: 68px;
+
+    }
+
+    .para {
+        font-size: 40px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .paratext {
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .second-btn{
+        display: flex;
+        justify-content: center;
+    } 
+     
+
+    .searchbtn {
+       width: 100%;
+    }
+
+    .space {
+        width: 100%;
+    }
+
+    .cardDiv {
+        padding-bottom: 35px;
+    }
+
+    .sec-4 {
+        padding-top: 50px;
+    }
+
+    .imgCont{
+        margin-bottom: 40px;
+    }
+
+    .box-primary {
+        height: 173px;
+        width: 75%;
+        flex-direction: column;
+    }
+
+    .forplace {
+        width: 100%;
+    }
+
+    .searchbtn{
+        height: 102px;
+    }
+    .card1 {
+        margin-bottom: 80px;
+    }
+
+    .cardDiv {
+        margin-bottom: 40px;
+    }
+
+    .boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .ImG {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .imgvps {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .texT {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .sec-9{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .CARDS {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .imgcontainer {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-around;
+    }
+
+    .futer {
+        display: flex;
+        flex-direction: column;
+    }
+    .snd-2 {
+        padding-top: 20px;
+    }
+
+    .part3 {
+        padding-top: 20px;
+    }
+
+    .getstarted2 {
+        width: 80%;
+        background-color: #78d5ef;
+        height: 56px;
+    }
+
+    .boxes {
+        width: 100%;
+    }
+
+    .box1 {
+        margin-bottom: 5px;
+    }
+
+    .box2 {
+        margin-bottom: 5px;
+    }
+
+    .card1 {
+        width: 100%;
+    }
+
+    .blog-container {
+        width: 70%;
+    }
+
+    .customer-container {
+        width: 50%;
+    }
+
+    .servive-container {
+        width: 70%;
+    }
+    .pricing-container {
+        width: 70%;
+    }
+    .numbers{
+        flex-direction: column;
+    }
+
+    .superheading1 {
+        font-size: 28px;
+    }
+
+    .per {
+        font-size: 16px;
+        max-width: 517px;
+    }
+    .boxes {
+        width: 80%;
+    }
+    .sec-7 .container {
+        padding-bottom: 96px;
+    }
+    .Email {
+        width: 85%;
+    }
+
+    .plane{
+        right: 75px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    .Email {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .fa-solid {
+        left: 247px;
+    }
+
+}
+
+@media only screen and (max-width: 1022px) {
+    .btn-primary {
+        width: 125px;
+    }
+
+    .paratext {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .main {
+        font-size: 35px;
+    }
+
+    .subheading1 {
+        font-size: 25px;
+    }
+
+    .snd-2 p {
+        font-weight: 400;
+    }
+
+    .footer 
+    .container {
+        padding-right: 16px;
+    }
+
+    .last-line {
+        padding-top:150px
+    }
+    .plane{
+        right: 130px;
+    }
+
+    .heading6 {
+        width: 318px;
+    }
+
+    .para1 {
+        width: 315px;
+    }
+
+    .para2 {
+        width: 315px;
+    }
+    .service-container {
+        width: 87%;
+    }
+    .customer-container{
+        width:86%;
+    }
+    .per {
+        max-width: 337px;
+    }
+    .boxes {
+        width: 100%;
+    }
+    .heading6 {
+        font-weight: 400;
+        margin: 0 auto;
+    }
+    .Email {
+        width: 85%;
+    }
+    .plane {
+        right: 144px;
+    }
+    .para2 {
+        max-width: 328px;
+    }
+    .blog-container {
+        width: 93%;
+    }
+    .place {
+        font-size: 18px;
+    }
+    .box-primary{
+        width:100%;
+    }
+    .mail-container {
+        width: 100%;
+    }
+    .para2 {
+        max-width: 290px;
+    }
+    .pricing-container {
+        width: 90%;
+    }
+    .para1 {
+        margin: 23px auto;
+    }
+    .paratext {
+        max-width:0;
+    }
+    }
+
+
+@media only screen and (max-width:1330px) {
+    img {
+        padding: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+      .demo {
+          display: flex;
+          margin: 0;
+      }
+      
+      .contain1 {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .para{
+          margin-bottom: 24px;
+          font-size: 40px;
+      }
+
+      .paratext {
+        font-size: 20px;
+        margin-bottom: 8px;
+        max-width: 100%;
+      }
+ 
+      .btn-primary1 {
+        padding: 20px 3px;
+        font-size: 16px;
+    }
+
+     .image {
+        width: 100%;
+        height: auto;
+        position: relative;
+        align-items: end;
+        bottom: -120px;
+    }
+}
+
+
+@media only screen and (max-width: 782px) {
+    .txt1 {
+        width: 207px;
+    }
+
+    .per {
+        width: 370px;
+        font-size: 16px;
+    }
+    .image {
+        bottom: -34px;
+    }
+    .boxes{
+        margin: 50px 
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .image {
+        bottom: -106px;
+    }
+    .contain1 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 325px) {
+    .per {
+        width: 290px;
+    }
+    .Email {
+        width:95%;
+    }
+    .para1 {
+        max-width: 308px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .boxes{
+        margin: 50px auto 0;
+    }
+    .image {
+        position: initial;
+        margin-bottom: -95px;
+        padding: 0;
+    }
+    .demo {
+        padding-top: 120px;
+    }
+    .plane {
+        right:  149px;
+    }
+    
+}
+
+@media only screen and (max-width: 515px) {
+    .customer-container{
+        width: 75%;
+    }
+    .boxes{
+        margin: 50px auto 0;
+    }
+}
+/* @media only screen and (max-width: 600px) {
+    .plane{
+        right: 97px;
+    }
+} */
+
+
+
